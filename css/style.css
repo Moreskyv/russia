@@ -1,0 +1,329 @@
+@import "reset.css";
+@import "font.css";
+html {
+    scroll-behavior: smooth;
+   }
+@keyframes fly-up {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes fly-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@keyframes fly-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+.first-page-box {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first-page-image {
+    filter: brightness(0.75);
+    position: absolute;
+    z-index: -1;
+}
+
+.welcome-box {
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.welcome-text-box{
+    width: 100%;
+    height: 200px;
+    background-color: #360e0e;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation-name: fly-up;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.welcome-text {
+    font-family: montserrat;
+    font-size: 60px;
+    color: #e2fcff;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-button {
+    width: 300px;
+    height: 100px;
+    background-color: #360e0e;
+    border-radius: 30px;
+    border: none;
+}
+
+.welcome-button-box {
+    display: flex;
+    justify-content: center;
+    animation-name: fly-up;
+    animation-duration: 2s;
+    animation-delay: 2s; /* задержка анимации на 2 секунды */
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+.welcome-button-text {
+    color: #e2fcff;
+    font-family: signika;
+    font-size: 30px;
+}
+
+.why-russia-main-box{
+    width: 100%;
+    height: 500px;
+    background-color: #ebf5f7;
+    display: flex;
+    justify-content: center;
+
+}
+
+.why-russia-box {
+    width: 1200px;
+    height: 500px;
+}
+
+.why-russia-text-box {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.why-russia-text {
+    width: 800px;
+    height: 100px;
+}
+
+.why-russia {
+    font-family: montserrat;
+    font-size: 60px;
+}
+
+.russia-info-box {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.russia-info-box-line {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+@keyframes info-box-anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.info-box {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.box1.in-view {
+    animation: fly-up 0.5s ease;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.box2.in-view {
+    animation: fly-up 1s ease;
+    animation-delay: 0.5s; /* задержка анимации на 1 секунду */
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.box3.in-view {
+    animation: fly-up 1s ease;
+    animation-delay: 1s; /* задержка анимации на 2 секунды */
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.box4.in-view {
+    animation: fly-up 1s ease;
+    animation-delay: 1.5s; /* задержка анимации на 3 секунды */
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.info-box-icon{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.info-text {
+    font-family: signika;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sights-page-main-box {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2500px;
+    background-color: #e9e8e8;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family: signika;
+}
+
+.sights-page-box {
+    width: 80%;
+
+}
+
+.sights-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sights-page-text-box{
+    height: 100px;
+}
+.sights-page-text-box{
+    font-size: 60px;
+    text-align: center;
+    font-family: montserrat;
+    }
+
+.sights {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.sights-image {
+    border-radius: 30px;
+    height: 100%;
+}
+
+.sights-text-box {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    gap: 10px;
+    width: 730px;
+    padding-left: 20px;
+}
+
+.sights-text-name {
+    font-size: 28px;
+    font-family: cabin;
+}
+
+.sights.box1{
+    background-color: #0831114d;
+
+}
+
+.sights.box1.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.sights.box2 {
+    flex-direction: row-reverse;
+    background-color: #552708b9;
+}
+
+.sights.box2.in-view {
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.sights.box3 {
+    background-color: #639599de;
+}
+
+.sights.box3.in-view {
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.sights.box4 {
+    flex-direction: row-reverse;
+    background-color: #cecf6b;
+}
+
+.sights.box4.in-view {
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+.sights.box5 {
+    background-color: #7dc0cc;
+}
+
+.sights.box5.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}

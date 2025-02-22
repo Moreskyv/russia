@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="346" height="334" viewBox="0 0 346 334" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="SingleElement">
+    <path id="Rectangle" d="M274.5 0C313.994 0 346 32.0063 346 71.5L346 71.5C346 110.994 313.994 143 274.5 143L71.5 143C32.0063 143 0 110.994 0 71.5L0 71.5C0 32.0063 32.0063 0 71.5 0L274.5 0Z" fill="#000000" transform="translate(0 191)" />
+    <path id="Rectangle" d="M326 0C337.047 0 346 8.95279 346 20L346 67C346 78.0472 337.047 87 326 87L20 87C8.95282 87 0 78.0472 0 67L0 20C0 8.95279 8.95282 0 20 0L326 0Z" fill="#000000" transform="translate(0 247)" />
+    <path id="Oval" d="M0 75C0 33.5786 33.5786 0 75 0C116.421 0 150 33.5786 150 75C150 116.421 116.421 150 75 150C33.5786 150 0 116.421 0 75Z" fill="#000000" fill-rule="evenodd" transform="translate(98 0)" />
+  </g>
+</svg>
