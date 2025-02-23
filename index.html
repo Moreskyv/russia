@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Russia</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./script/onscrol.js"></script>
+    <script src="./script/script.js"></script>
 </head>
 <body>
     <div class="container">
+
+        <header>
+            <div class="header-box">
+                <div class="header-text-box">
+                    <div class="logo">
+                        <a href="#"><img src="./image/kremlin-svgrepo-com.svg" width="50px" alt=""></a>
+                    </div>
+                    <div class="header-box-text">
+                        <ul class="header-text-list">
+                            <ol class="header-text"><a href="#sights" class="sights-scroll">Sights</a></ol>
+                            <ol class="header-text"><a href="#golden">Golden Ring</a></ol>
+                            <ol class="header-text"><a href="">Culture</a></ol>
+                            <ol class="header-text"><a href="">Art & Literature</a></ol>
+                            <ol class="header-text"><a href="">Traditions</a></ol>
+                            <ol class="header-text"><a href="">Food</a></ol>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
         <div class="first-page-box">
             <img src="./image/daniil-silantev-bMxkjZQnCTg-unsplash.jpg" alt="" width="100%" class="first-page-image">
             <div class="welcome-box">
@@ -16,7 +37,7 @@
                     <p class="welcome-text">Discover the Beauty of Russia in English!</p>
                 </div>
                 <div class="welcome-button-box">
-                   <button class="welcome-button" type="button"> <a class="welcome-button-text" href="#down"><p class="welcome-button-text">Start Exploring</a></p></button>
+                    <a class="welcome-button-text" href="#down"><button class="welcome-button" type="button"><p class="welcome-button-text">Start Exploring</p></button></a>
                 </div>
             </div>
         </div>
@@ -30,7 +51,7 @@
                         <li>
                             <div class="info-box box1 animate">
                                 <div class="info-box-icon"">
-                                    <img src="./image/avatar.svg" alt="" width="70px" height=700px">
+                                    <img src="./image/avatar.svg" alt="" width="70px" height=70px">
                                 </div>
                                 <p class="info-text">Russia is the largest country in the world by land area, covering over 17 million square kilometers.</p>
                             </div>
@@ -66,7 +87,7 @@
         <div class="sights-page-main-box">
             <div class="sights-page-box">
                 <div class="sights-page-text-box">
-                    <div class="sights-page-text"><p class="sights-page">Sights</p></div>
+                    <div class="sights-page-text"><p class="sights-page" id="sights">Sights</p></div>
                 </div>
                 <ol class="sights-box">
                     <li>
@@ -146,6 +167,60 @@
                     </li>
                 </ol>
             </div>
+        </div>
+        <div class="golden-ring-page-box">
+            <div class="golden-ring-header-text">
+                <p class="golden-ring-text" id="golden">Golden ring</p>
+                <div class="golden-ring-text-box">
+                    <p class="golden-ring-about-text">The Golden Ring of Russia is a popular tourist route that connects a series of ancient cities northeast of Moscow, each renowned for its rich history, unique architecture, and cultural significance. These cities played a crucial role in the formation of Russian statehood, culture, and Orthodox Christianity. The Golden Ring offers travelers a glimpse into Russia's medieval past, showcasing stunning cathedrals, monasteries, kremlins, and traditional wooden architecture.</p>
+                </div>
+            </div>
+
+            <div class="golden-ring-box">
+                <div class="golden-ring-city-box">
+                    <div class="golden-ring-city">
+                        <div class="city-box box1 animate">
+                            <img src="./image/city/pereslavl.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Pereslavl-Zalessky, formerly known as Pereyaslavl-Zalessky, is a town in Yaroslavl Oblast, Russia, located on the main Moscow–Yaroslavl road and on the southeastern shore of Lake Pleshcheyevo at the mouth of the Trubezh River.</p></div>
+                        </div>
+                        <div class="city-box box2 animate">
+                            <img src="./image/city/rostov.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Rostov Veliky, formerly Rostov, is a town in Yaroslavl Oblast, Russia, one of the oldest in the country and a tourist center of the Golden Ring. It is located on the shores of Lake Nero, 202 kilometers (126 mi) northeast of Moscow.</p></div>
+                        </div>
+                        <div class="city-box box3 animate">
+                            <img src="./image/city/yaroslavl.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Yaroslavl is a city and the administrative center of Yaroslavl Oblast, Russia, located 250 kilometers (160 mi) northeast of Moscow. The historic part of the city is a World Heritage Site, and is located at the confluence of the Volga and the Kotorosl rivers. It is part of the Golden Ring.</p></div>
+                        </div>
+                        <div class="city-box box4 animate">
+                            <img src="./image/city/kostroma.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Kostroma is a historic city and the administrative center of Kostroma Oblast, Russia. A part of the Golden Ring of Russian cities, it is located at the confluence of the rivers Volga and Kostroma.</p></div>
+                        </div>
+                        <div class="city-box box5 animate">
+                            <img src="./image/city/ivanovo.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Ivanovo is a city in Russia and the administrative center and largest city of Ivanovo Oblast, located 254 kilometers (158 mi) northeast of Moscow and approximately 100 kilometers (62 mi) from Yaroslavl, Vladimir and Kostroma. It is the youngest city of the Golden Ring of Russia.</p></div>
+                        </div>
+                        <div class="city-box box6 animate">
+                            <img src="./image/city/suzdal.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Suzdal is a town that serves as the administrative center of Suzdalsky District in Vladimir Oblast, Russia, which is located along the Kamenka tributary of the Nerl River, 26 km (16 mi) north of the city of Vladimir.</p></div>
+                        </div>
+                        <div class="city-box box7 animate">
+                            <img src="./image/city/vladimir.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Vladimir is a city and the administrative center of Vladimir Oblast, Russia, located on the Klyazma River, 200 kilometers (120 mi) east of Moscow. It is served by a railway and the M7 motorway.</p></div>
+                        </div>
+                        <div class="city-box box8 animate">
+                            <img src="./image/city/sergiev.jpg" class="city-image" alt="">
+                            <div class="city-text-box"><p class="city-descript">Sergiyev Posad is a city that is the administrative center of Sergiyevo-Posadsky District in Moscow Oblast, Russia.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+              
+        
         </div>
     </div>
 </body>

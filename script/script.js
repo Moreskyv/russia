@@ -33,3 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector('.welcome-button').addEventListener('click', () => {
     document.querySelector('#down').scrollIntoView({ behavior: 'smooth' });
   });
+
+  document.querySelector('.sights-scroll').addEventListener('click', () => {
+    document.querySelector('#sights').scrollIntoView({ behavior: 'smooth' });
+  });
+ 
+  document.querySelector('.sights-scroll').addEventListener('click', () => {
+    document.querySelector('#golden').scrollIntoView({ behavior: 'smooth' });
+  });
+ 

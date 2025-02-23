@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1182" height="1294" viewBox="0 0 1182 1294" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="SingleElement">
+    <path id="Rectangle" d="M3.05176e-05 0L18 0L18 297L0 297L3.05176e-05 0Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.934 0.358 -0.358 0.934 156.479 925.575)" />
+    <path id="Rectangle" d="M0 6.10352e-05L22.6617 0L22.6617 361.001L0 361.001L0 6.10352e-05Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.743 0.669 -0.669 0.743 425.282 616)" />
+    <path id="Rectangle" d="M0 0.00012207L22.6617 0L22.6618 361.001L1.52588e-05 361.001L0 0.00012207Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.899 0.438 -0.438 0.899 603 280)" />
+    <path id="Rectangle" d="M6.10352e-05 0.00012207L29.5621 0L29.5621 361.001L0 361.001L6.10352e-05 0.00012207Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.53 0.848 -0.848 0.53 942.712 50)" />
+    <path id="Rectangle" d="M0 0L29.5621 0.00012207L29.5621 599.003L6.10352e-05 599.003L0 0Z" fill="#000000" fill-rule="evenodd" transform="matrix(-0.974 0.225 -0.225 -0.974 1132.438 645)" />
+    <path id="Rectangle" d="M0 0L29.5622 0L29.5622 184.742L0 184.742L0 0Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.97 0.242 -0.242 0.97 1102.813 665)" />
+    <path id="Rectangle" d="M0 0L29.5623 3.05176e-05L29.5622 184.742L0 184.742L0 0Z" fill="#000000" fill-rule="evenodd" transform="matrix(0.99 -0.139 0.139 0.99 1057.7 884)" />
+    <path id="Rectangle" d="M0 6.10352e-05L29.5623 0L29.5623 1028.4L0 1028.4L0 6.10352e-05Z" fill="#000000" fill-rule="evenodd" transform="matrix(-0.156 -0.988 0.988 -0.156 78.877 1247.346)" />
+    <path id="Oval" d="M0 50C0 22.3857 22.3858 0 50 0C77.6142 0 100 22.3857 100 50C100 77.6143 77.6142 100 50 100C22.3858 100 0 77.6143 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(392 566)" />
+    <path id="Oval" d="M0 50C0 22.3857 22.3858 0 50 0C77.6142 0 100 22.3857 100 50C100 77.6143 77.6142 100 50 100C22.3858 100 0 77.6143 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(573 230)" />
+    <path id="Oval" d="M0 50C0 22.3857 22.3857 0 50 0C77.6143 0 100 22.3857 100 50C100 77.6143 77.6143 100 50 100C22.3857 100 0 77.6143 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(908 0)" />
+    <path id="Oval" d="M0 50C0 22.3857 22.3857 0 50 0C77.6143 0 100 22.3857 100 50C100 77.6143 77.6143 100 50 100C22.3857 100 0 77.6143 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(1082 602)" />
+    <path id="Oval" d="M0 50C0 22.3858 22.3857 0 50 0C77.6143 0 100 22.3858 100 50C100 77.6142 77.6143 100 50 100C22.3857 100 0 77.6142 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(1008 826)" />
+    <path id="Oval" d="M0 50C0 22.3858 22.3857 0 50 0C77.6143 0 100 22.3858 100 50C100 77.6142 77.6143 100 50 100C22.3857 100 0 77.6142 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(1050 1017)" />
+    <path id="Oval" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100C22.3858 100 0 77.6142 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(123 876)" />
+    <path id="Oval" d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100C22.3858 100 0 77.6142 0 50Z" fill="#ECEC8E" fill-rule="evenodd" transform="translate(0 1194)" />
+  </g>
+</svg>
