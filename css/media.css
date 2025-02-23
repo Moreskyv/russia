@@ -1,0 +1,35 @@
+@media (min-width: 768px) { /* Планшеты */
+    .info-box {
+        width: calc(33.33% - 10px); /* Три блока в ряд */
+    }
+
+    .sights {
+        flex-direction: row; /* Блоки в одну строку */
+    }
+
+    .sights-text-box {
+        width: 50%; /* Текст занимает половину пространства */
+    }
+
+    .sights-image {
+        width: 50%; /* Изображение занимает половину пространства */
+    }
+}
+
+@media (min-width: 1024px) { /* Ноутбуки */
+    .info-box {
+        width: calc(25% - 10px); /* Четыре блока в ряд */
+    }
+
+    .welcome-text {
+        font-size: 60px; /* Возвращаем оригинальный размер шрифта */
+    }
+
+    .welcome-button {
+        height: 100px; /* Возвращаем оригинальную высоту кнопки */
+    }
+
+    .welcome-button-text {
+        font-size: 30px; /* Возвращаем оригинальный размер шрифта */
+    }
+}

@@ -1,5 +1,7 @@
 @import "reset.css";
 @import "font.css";
+@import "media.css";
+
 html {
     scroll-behavior: smooth;
    }
