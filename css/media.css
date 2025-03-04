@@ -1,35 +1,946 @@
-@media (min-width: 768px) { /* Планшеты */
-    .info-box {
-        width: calc(33.33% - 10px); /* Три блока в ряд */
+@media (min-width: 320px) {
+
+    .first-page-box {
+        height: 800px;
     }
+    .welcome-box {
+        width: 90%;
+        height: 500px;
+        gap: 150px;
+    }
+    .welcome-text-box {
+        height: 150px;
+    }
+    .welcome-text {
+        font-size: 40px;
+    }
+    .welcome-button {
+        width: 200px;
+        height: 80px;
+    }
+    .welcome-button-text {
+        font-size: 20px;
+    }
+
+    .why-russia-box {
+        width: 100%;
+        height: 1300px;
+    }
+    .why-russia-text-box {
+        width: 100%
+
+    }
+    .why-russia-text {
+        width: 90%;
+    }
+    .russia-info-box-line {
+        width: 90%;
+        flex-direction: column;
+    }
+    .info-box {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .why-russia {
+        font-size: 40px;
+    }
+    
+    #sights-page-main-box1{
+        height: 1500px;
+    }
+
+      .sights {
+
+        display: flex;
+        flex-direction: column;
+      }
+
+        .sights-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+      .sights.box {
+        display: flex;
+        flex-direction: column;
+
+      }
+      .sights-text-box {
+        height: 500px;
+        width: 100%;
+      }
+      .sights.box1{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
+      }
+      #sights-text1 {
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text1::after {
+        content: "The Church of the Saviour on Blood in St. Petersburg is an Orthodox memorial church dedicated to the Resurrection of Christ. Built to commemorate Emperor Alexander II's assassination on March 1 (13), 1881, it stands in the city’s historical center near the Griboyedov Canal. The nine-domed church reaches 81 meters in height and can hold up to 1,600 people. Its architecture reflects the late 'Russian style,' inspired by Moscow and Yaroslavl churches from the 16th–17th centuries, with St. Basil’s Cathedral influencing its design. External inscriptions highlight Russia's achievements under Alexander II. Decorative materials include brick, marble, granite, enamel, gold-plated copper, and mosaic. Inside, the church houses a vast mosaic museum (7,065 sq m), created by V. A. Frolov's workshop based on designs by over 30 artists, including V. M. Vasnetsov and M. V. Nesterov.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image1 {
+        width: 100%;
+        height: 250px;
+      }
+
+      .sights.box2{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
+      }
+      #sights-text2 {
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text2::after {
+        content: "The Kremlin is located on Borovitsky Hill, at the confluence of the Moscow and Neglinnaya Rivers. It has an irregular triangular shape with an area of 27.5 hectares. Its walls face the Moscow River, Alexander Garden, and Red Square. The Kremlin has 20 towers, with the Spasskaya Tower being the tallest at 71 meters. The architectural ensemble includes 8 cathedrals, with the Assumption Cathedral being the most significant. The Armoury houses ancient jewels, weapons, and artifacts like the Monomakh Hat. The Grand Kremlin Palace hosts major events, and the territory features the Tsar Cannon, cast in 1586 but never fired. The Moscow Kremlin is a UNESCO World Heritage Site.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image2 {
+        width: 100%;
+        height: 250px;
+      }
+
+      .sights.box3{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
+      }
+      #sights-text3{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text3::after {
+        content: "The temple was built in the mid-16th century by Ivan the Terrible to commemorate the conquest of the Kazan Khanate. The cathedral has a complex structure with a central church surrounded by eight smaller churches and a tented bell tower added later. A revered shrine is the carved arch above Basil the Blessed's tomb. Its main value is the unique iconostasis with over 400 icons from the 16th–19th centuries. Today, it is an active Russian Orthodox cathedral and a branch of the Historical Museum.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image3 {
+        width: 100%;
+        height: 250px;
+      }
+
+      .sights.box4{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
+      }
+      #sights-text4{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text4::after {
+        content: "The Bolshoi Theatre is an eight-column octagon in classical style, featuring Apollo's chariot above the portico. The five-level auditorium, known for its size and acoustics, has gilded decorations, ceiling paintings, and a crystal chandelier. The hall measures 21 meters high, 25 meters long, and 26 meters wide, with 2153 seats. A square and fountain are located in front of the theatre. Its repertoire includes world classics like 'Valkyrie' and 'Bohème,' as well as Russian masterpieces such as 'Sadko' and 'The Golden Rooster.'";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image4 {
+        width: 100%;
+        height: 250px;
+      }
+
+      .sights.box5{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        width: 400px;
+      }
+      #sights-text5{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text5::after {
+        content: "The Kazan Kremlin is located on a cape of the left bank of the Kazanka River in the city centre. Its territory forms an irregular polygon following the hill's contours, stretching from the Kazanka to May 1 Square. It includes 13 towers, the Kul-Sharif Mosque, Syuyumbike Tower, Annunciation Cathedral, Presidential Palace, and Transfiguration Monastery. Since 2000, it has been a UNESCO World Heritage Site and a federal cultural landmark. The complex houses attractions like ancient towers, cathedrals, museums, and observation platforms, serving as the official residence of Tatarstan's";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image5 {
+        width: 100%;
+        height: 250px;
+      }
+
+      .golden-ring-city {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .city-box.box2.in-view {
+
+  }
+
+    .city-box.box3.in-view {
+
+    }
+    .city-box.box4.in-view {
+
+  }
+    .city-box.box5.in-view {
+
+  }
+
+  .golden-ring-page-box {
+    height: 1000px;
+}
+
+    
+}
+
+/* Portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+/* Portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width: 481px) and (max-width: 768px) {
+    .first-page-box {
+        height: 900px;
+    }
+    .welcome-box {
+        width: 85%;
+        height: 550px;
+        gap: 180px;
+    }
+    .welcome-text-box {
+        height: 170px;
+    }
+    .welcome-text {
+        font-size: 45px;
+    }
+    .welcome-button {
+        width: 220px;
+        height: 90px;
+    }
+    .welcome-button-text {
+        font-size: 22px;
+    }
+
+    .why-russia-box {
+        width: 100%;
+        height: 1300px;
+    }
+    .why-russia-text-box {
+        width: 100%
+
+    }
+    .why-russia-text {
+        width: 90%;
+    }
+    .russia-info-box-line {
+        width: 90%;
+        flex-direction: column;
+    }
+    .info-box {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .why-russia {
+        font-size: 40px;
+    }
+
+    #sights-page-main-box1{
+        height: 4500px;
+    }
+
+      .sights {
+
+        display: flex;
+        flex-direction: column;
+      }
+
+        .sights-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+      .sights.box {
+        display: flex;
+        flex-direction: column;
+
+      }
+      .sights-text-box {
+        height: 500px;
+        width: 100%;
+      }
+      .sights.box1{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 600px;
+      }
+      #sights-text1 {
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text1::after {
+        content: "The Church of the Saviour on Blood in St. Petersburg is an Orthodox memorial church dedicated to the Resurrection of Christ. Built to commemorate Emperor Alexander II's assassination on March 1 (13), 1881, it stands in the city’s historical center near the Griboyedov Canal. The nine-domed church reaches 81 meters in height and can hold up to 1,600 people. Its architecture reflects the late 'Russian style,' inspired by Moscow and Yaroslavl churches from the 16th–17th centuries, with St. Basil’s Cathedral influencing its design. External inscriptions highlight Russia's achievements under Alexander II. Decorative materials include brick, marble, granite, enamel, gold-plated copper, and mosaic. Inside, the church houses a vast mosaic museum (7,065 sq m), created by V. A. Frolov's workshop based on designs by over 30 artists, including V. M. Vasnetsov and M. V. Nesterov.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image1 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box2{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 600px;
+      }
+      #sights-text2 {
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text2::after {
+        content: "The Kremlin is located on Borovitsky Hill, at the confluence of the Moscow and Neglinnaya Rivers. It has an irregular triangular shape with an area of 27.5 hectares. Its walls face the Moscow River, Alexander Garden, and Red Square. The Kremlin has 20 towers, with the Spasskaya Tower being the tallest at 71 meters. The architectural ensemble includes 8 cathedrals, with the Assumption Cathedral being the most significant. The Armoury houses ancient jewels, weapons, and artifacts like the Monomakh Hat. The Grand Kremlin Palace hosts major events, and the territory features the Tsar Cannon, cast in 1586 but never fired. The Moscow Kremlin is a UNESCO World Heritage Site.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image2 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box3{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 600px;
+      }
+      #sights-text3{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text3::after {
+        content: "The temple was built in the mid-16th century by Ivan the Terrible to commemorate the conquest of the Kazan Khanate. The cathedral has a complex structure with a central church surrounded by eight smaller churches and a tented bell tower added later. A revered shrine is the carved arch above Basil the Blessed's tomb. Its main value is the unique iconostasis with over 400 icons from the 16th–19th centuries. Today, it is an active Russian Orthodox cathedral and a branch of the Historical Museum.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image3 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box4{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 600px;
+      }
+      #sights-text4{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text4::after {
+        content: "The Bolshoi Theatre is an eight-column octagon in classical style, featuring Apollo's chariot above the portico. The five-level auditorium, known for its size and acoustics, has gilded decorations, ceiling paintings, and a crystal chandelier. The hall measures 21 meters high, 25 meters long, and 26 meters wide, with 2153 seats. A square and fountain are located in front of the theatre. Its repertoire includes world classics like 'Valkyrie' and 'Bohème,' as well as Russian masterpieces such as 'Sadko' and ";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image4 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box5{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 600px;
+      }
+      #sights-text5{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text5::after {
+        content: "Located on the cape of the high terrace of the left bank of the Kazanka on the section of its current in the city centre, more than a kilometre from its mouth. The territory of the Kremlin is an incorrect polygon in plan, repeating the outlines of the Kremlin hill, stretched from the northwest, from the Kazanka River, to the southeast, to May 1 Square. The structure of the Kremlin includes 13 towers, the new Kul-Sharif Mosque, the Syuyumbike Tower, the Annunciation Cathedral, the Presidential Palace, the Vvedensky Church, as well as the Transfiguration Monastery. The Kazan Kremlin is the official residence of the Head of the Republic of Tatarstan. UNESCO World Heritage Site since 2000 and Russian cultural heritage of federal significance. There are many attractions on the territory of the Kremlin: ancient towers and cathedrals, the most famous mosque in Russia and Europe, historical and memorial buildings, museums and galleries, observation platforms.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image5 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .golden-ring-city {
+        display: grid;
+    grid-template-columns: 1fr 1fr; /* две колонки одинаковой ширины */
+    grid-gap: 10px; /* расстояние между элементами */
+    }
+
+  .city-box.box2.in-view {
+
+}
+
+  .city-box.box3.in-view {
+
+  }
+  .city-box.box4.in-view {
+
+}
+  .city-box.box5.in-view {
+
+}
+
+.golden-ring-page-box {
+  height: 2500px;
+}
+    
+}
+
+/* Tablet, landscape iPad, lo-res laptops and desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sights-page-main-box {
+      height: 2200px;
+      padding: 90px;
+    }
+  
+    .sights-page-box {
+      width: 80%;
+    }
+  
+    .sights-box {
+      gap: 50px;
+    }
+  
+    .sights-page-text-box {
+      height: 100px;
+      font-size: 50px;
+    }
+  
+    .sights {
+      height: 300px;
+      gap: 40px;
+    }
+  
+    .sights-image {
+      height: 100%;
+    }
+  
+    .sights-text-box {
+      height: 240px;
+      width: 80%;
+      padding-left: 20px;
+    }
+  
+    .sights-text-name {
+      font-size: 24px;
+    }
+
+    .sights-page-box {
+      width: 75%;
+    }
+  
+    .sights-box {
+      gap: 60px;
+    }
+  
+    .sights-page-text-box {
+      height: 110px;
+      font-size: 55px;
+    }
+  
+    .sights {
+      height: 320px;
+      gap: 50px;
+    }
+  
+    .sights-image {
+      height: 100%;
+    }
+  
+    .sights-text-box {
+      height: 260px;
+      width: 75%;
+      padding-left: 25px;
+    }
+  
+    .sights-text-name {
+      font-size: 26px;
+    }
+
+    #sights-page-main-box1{
+      height: 2500px;
+  }
 
     .sights {
-        flex-direction: row; /* Блоки в одну строку */
+
+      display: flex;
+      flex-direction: column;
     }
 
+      .sights-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+    .sights.box {
+      display: flex;
+      flex-direction: column;
+
+    }
     .sights-text-box {
-        width: 50%; /* Текст занимает половину пространства */
+      height: 250px;
+      width: 100%;
+    }
+    .sights.box1{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      width: 1200px;
+      margin: 0 auto;
+    }
+    #sights-text1 {
+      padding-top: 20px;
+      visibility: hidden;
+      position: relative;
     }
 
-    .sights-image {
-        width: 50%; /* Изображение занимает половину пространства */
+    #sights-text1::after {
+      content: "The Church of the Saviour on Blood in St. Petersburg is an Orthodox memorial church dedicated to the Resurrection of Christ. Built to commemorate Emperor Alexander II's assassination on March 1 (13), 1881, it stands in the city’s historical center near the Griboyedov Canal. The nine-domed church reaches 81 meters in height and can hold up to 1,600 people. Its architecture reflects the late 'Russian style,' inspired by Moscow and Yaroslavl churches from the 16th–17th centuries, with St. Basil’s Cathedral influencing its design. External inscriptions highlight Russia's achievements under Alexander II. Decorative materials include brick, marble, granite, enamel, gold-plated copper, and mosaic. Inside, the church houses a vast mosaic museum (7,065 sq m), created by V. A. Frolov's workshop based on designs by over 30 artists, including V. M. Vasnetsov and M. V. Nesterov.";
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
+
+    #image1 {
+      width: 100%;
+      height: 350px;
+    }
+
+    .sights.box2{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      width: 1200px;
+    }
+    #sights-text2 {
+      padding-top: 20px;
+      visibility: hidden;
+      position: relative;
+    }
+
+    #sights-text2::after {
+      content: "The Kremlin is located on Borovitsky Hill, at the confluence of the Moscow and Neglinnaya Rivers. It has an irregular triangular shape with an area of 27.5 hectares. Its walls face the Moscow River, Alexander Garden, and Red Square. The Kremlin has 20 towers, with the Spasskaya Tower being the tallest at 71 meters. The architectural ensemble includes 8 cathedrals, with the Assumption Cathedral being the most significant. The Armoury houses ancient jewels, weapons, and artifacts like the Monomakh Hat. The Grand Kremlin Palace hosts major events, and the territory features the Tsar Cannon, cast in 1586 but never fired. The Moscow Kremlin is a UNESCO World Heritage Site.";
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #image2 {
+      width: 100%;
+      height: 350px;
+    }
+
+    .sights.box3{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      width: 1200px;
+    }
+    #sights-text3{
+      padding-top: 20px;
+      visibility: hidden;
+      position: relative;
+    }
+
+    #sights-text3::after {
+      content: "The temple was built in the mid-16th century by Ivan the Terrible to commemorate the conquest of the Kazan Khanate. The cathedral has a complex structure with a central church surrounded by eight smaller churches and a tented bell tower added later. A revered shrine is the carved arch above Basil the Blessed's tomb. Its main value is the unique iconostasis with over 400 icons from the 16th–19th centuries. Today, it is an active Russian Orthodox cathedral and a branch of the Historical Museum.";
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #image3 {
+      width: 100%;
+      height: 350px;
+    }
+
+    .sights.box4{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      width: 1200px;
+    }
+    #sights-text4{
+      padding-top: 20px;
+      visibility: hidden;
+      position: relative;
+    }
+
+    #sights-text4::after {
+      content: "The Bolshoi Theatre is an eight-column octagon in classical style, featuring Apollo's chariot above the portico. The five-level auditorium, known for its size and acoustics, has gilded decorations, ceiling paintings, and a crystal chandelier. The hall measures 21 meters high, 25 meters long, and 26 meters wide, with 2153 seats. A square and fountain are located in front of the theatre. Its repertoire includes world classics like 'Valkyrie' and 'Bohème,' as well as Russian masterpieces such as 'Sadko' and ";
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #image4 {
+      width: 100%;
+      height: 350px;
+    }
+
+    .sights.box5{
+      display: flex;
+      flex-direction: row;
+      height: 350px;
+      width: 1200px;
+    }
+    #sights-text5{
+      padding-top: 20px;
+      visibility: hidden;
+      position: relative;
+    }
+
+    #sights-text5::after {
+      content: "Located on the cape of the high terrace of the left bank of the Kazanka on the section of its current in the city centre, more than a kilometre from its mouth. The territory of the Kremlin is an incorrect polygon in plan, repeating the outlines of the Kremlin hill, stretched from the northwest, from the Kazanka River, to the southeast, to May 1 Square. The structure of the Kremlin includes 13 towers, the new Kul-Sharif Mosque, the Syuyumbike Tower, the Annunciation Cathedral, the Presidential Palace, the Vvedensky Church, as well as the Transfiguration Monastery. The Kazan Kremlin is the official residence of the Head of the Republic of Tatarstan. UNESCO World Heritage Site since 2000 and Russian cultural heritage of federal significance. There are many attractions on the territory of the Kremlin: ancient towers and cathedrals, the most famous mosque in Russia and Europe, historical and memorial buildings, museums and galleries, observation platforms.";
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    #image5 {
+      width: 100%;
+      height: 350px;
+    }
+
+    .golden-ring-city {
+      display: grid;
+  grid-template-columns: 1fr 1fr; /* две колонки одинаковой ширины */
+  grid-gap: 10px; /* расстояние между элементами */
+  }
+
+.city-box.box2.in-view {
+
 }
 
-@media (min-width: 1024px) { /* Ноутбуки */
+.city-box.box3.in-view {
+
+}
+.city-box.box4.in-view {
+
+}
+.city-box.box5.in-view {
+
+}
+    
+    .golden-ring-page-box {
+      height: 3000px;
+    }
+
+  }
+  
+
+@media (min-width: 1025px) {
+    .why-russia-box {
+        width: 1000px;
+        height: 500px;
+    }
+    .why-russia-text-box {
+        width: 1200px;
+    }
+    .why-russia-text {
+        width: 100px;
+    }
+    .russia-info-box-line {
+        width: 90%;
+        flex-direction: row;
+    }
     .info-box {
-        width: calc(25% - 10px); /* Четыре блока в ряд */
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+    .why-russia {
+        font-size: 40px;
+    }
+    .sights-page-main-box {
+        height: 2400px;
+        padding: 110px;
+      }
+    
+      .sights-page-box {
+        width: 75%;
+      }
+    
+      .sights-box {
+        gap: 60px;
+      }
+    
+      .sights-page-text-box {
+        height: 110px;
+        font-size: 55px;
+      }
+    
+      .sights {
+        height: 320px;
+        gap: 50px;
+      }
+    
+      .sights-image {
+        height: 100%;
+      }
+    
+      .sights-text-box {
+        height: 260px;
+        width: 75%;
+        padding-left: 25px;
+      }
+    
+      .sights-text-name {
+        font-size: 26px;
+      }
+
+      #sights-page-main-box1{
+        height: 2500px;
     }
 
-    .welcome-text {
-        font-size: 60px; /* Возвращаем оригинальный размер шрифта */
-    }
+      .sights {
 
-    .welcome-button {
-        height: 100px; /* Возвращаем оригинальную высоту кнопки */
-    }
+        display: flex;
+        flex-direction: column;
+      }
 
-    .welcome-button-text {
-        font-size: 30px; /* Возвращаем оригинальный размер шрифта */
+        .sights-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+      .sights.box {
+        display: flex;
+        flex-direction: column;
+
+      }
+      .sights-text-box {
+        gap: 10px;
+        padding-top: 20px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
+      }
+      .sights.box1{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 1200px;
+        margin: 0 auto;
+      }
+      #sights-text1 {
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text1::after {
+        content: "The Church of the Saviour on Blood in St. Petersburg is an Orthodox memorial church dedicated to the Resurrection of Christ. Built to commemorate Emperor Alexander II's assassination on March 1 (13), 1881, it stands in the city’s historical center near the Griboyedov Canal. The nine-domed church reaches 81 meters in height and can hold up to 1,600 people. Its architecture reflects the late 'Russian style,' inspired by Moscow and Yaroslavl churches from the 16th–17th centuries, with St. Basil’s Cathedral influencing its design. External inscriptions highlight Russia's achievements under Alexander II. Decorative materials include brick, marble, granite, enamel, gold-plated copper, and mosaic. Inside, the church houses a vast mosaic museum (7,065 sq m), created by V. A. Frolov's workshop based on designs by over 30 artists, including V. M. Vasnetsov and M. V. Nesterov.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image1 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box2{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 1200px;
+      }
+      #sights-text2 {
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text2::after {
+        content: "The Kremlin is located on Borovitsky Hill, at the confluence of the Moscow and Neglinnaya Rivers. It has an irregular triangular shape with an area of 27.5 hectares. Its walls face the Moscow River, Alexander Garden, and Red Square. The Kremlin has 20 towers, with the Spasskaya Tower being the tallest at 71 meters. The architectural ensemble includes 8 cathedrals, with the Assumption Cathedral being the most significant. The Armoury houses ancient jewels, weapons, and artifacts like the Monomakh Hat. The Grand Kremlin Palace hosts major events, and the territory features the Tsar Cannon, cast in 1586 but never fired. The Moscow Kremlin is a UNESCO World Heritage Site.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image2 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box3{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 1200px;
+      }
+      #sights-text3{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text3::after {
+        content: "The temple was built in the mid-16th century by Ivan the Terrible to commemorate the conquest of the Kazan Khanate. The cathedral has a complex structure with a central church surrounded by eight smaller churches and a tented bell tower added later. A revered shrine is the carved arch above Basil the Blessed's tomb. Its main value is the unique iconostasis with over 400 icons from the 16th–19th centuries. Today, it is an active Russian Orthodox cathedral and a branch of the Historical Museum.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image3 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box4{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 1200px;
+      }
+      #sights-text4{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text4::after {
+        content: "The Bolshoi Theatre is an eight-column octagon in classical style, featuring Apollo's chariot above the portico. The five-level auditorium, known for its size and acoustics, has gilded decorations, ceiling paintings, and a crystal chandelier. The hall measures 21 meters high, 25 meters long, and 26 meters wide, with 2153 seats. A square and fountain are located in front of the theatre. Its repertoire includes world classics like 'Valkyrie' and 'Bohème,' as well as Russian masterpieces such as 'Sadko' and ";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image4 {
+        width: 100%;
+        height: 350px;
+      }
+
+      .sights.box5{
+        display: flex;
+        flex-direction: row;
+        height: 350px;
+        width: 1200px;
+      }
+      #sights-text5{
+        padding-top: 20px;
+        visibility: hidden;
+        position: relative;
+      }
+
+      #sights-text5::after {
+        content: "Located on the cape of the high terrace of the left bank of the Kazanka on the section of its current in the city centre, more than a kilometre from its mouth. The territory of the Kremlin is an incorrect polygon in plan, repeating the outlines of the Kremlin hill, stretched from the northwest, from the Kazanka River, to the southeast, to May 1 Square. The structure of the Kremlin includes 13 towers, the new Kul-Sharif Mosque, the Syuyumbike Tower, the Annunciation Cathedral, the Presidential Palace, the Vvedensky Church, as well as the Transfiguration Monastery. The Kazan Kremlin is the official residence of the Head of the Republic of Tatarstan. UNESCO World Heritage Site since 2000 and Russian cultural heritage of federal significance. There are many attractions on the territory of the Kremlin: ancient towers and cathedrals, the most famous mosque in Russia and Europe, historical and memorial buildings, museums and galleries, observation platforms.";
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #image5 {
+        width: 100%;
+        height: 350px;
+      }
+    
+      .golden-ring-city {
+        flex-direction: row;
+      }
+
+      .city-box.box2.in-view {
+        margin-top: 200px;
     }
+    
+      .city-box.box3.in-view {
+      }
+      .city-box.box4.in-view {
+        margin-top: 200px;
+    
+    }
+      .city-box.box5.in-view {
+    
+    }
+    .city-box.box6.in-view {
+      margin-top: 200px;
+  
+  }
+  .city-box.box8.in-view {
+    margin-top: 200px;
+
 }
+    
+    .golden-ring-page-box {
+      height: 2500px;
+    }
+    }
+
+

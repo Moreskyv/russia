@@ -105,6 +105,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../image/photo-1615924865834-78e9fd619454.avif);
+}
+
+first-page-image {
 }
 
 
@@ -138,7 +142,7 @@ html {
 
 .welcome-text {
     font-family: montserrat;
-    font-size: 60px;
+
     color: #e2fcff;
     align-items: center;
     text-align: center;
@@ -171,7 +175,6 @@ html {
 
 .why-russia-main-box{
     width: 100%;
-    height: 500px;
     background-color: #ebf5f7;
     display: flex;
     justify-content: center;
@@ -179,19 +182,16 @@ html {
 }
 
 .why-russia-box {
-    width: 1200px;
-    height: 500px;
+
 }
 
 .why-russia-text-box {
-    width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
 }
 
 .why-russia-text {
-    width: 800px;
     height: 100px;
 }
 
@@ -212,7 +212,6 @@ html {
     width: 1000px;
     height: 300px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     
@@ -277,7 +276,6 @@ a {
     max-width: 100%;
     box-sizing: border-box;
     width: 100%;
-    height: 2300px;
     background-color: #e9e8e8;
     display: flex;
     justify-content: center;
@@ -307,25 +305,18 @@ a {
 
 .sights {
     width: 100%;
-    height: 350px;
-    display: flex;
     gap: 50px;
     align-items: center;
     border-radius: 30px;
+    height: 500px;
 }
 
 .sights-image {
     border-radius: 30px;
-    height: 100%;
 }
 
 .sights-text-box {
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    gap: 10px;
-    width: 730px;
-    padding-left: 20px;
+
 }
 
 .sights-text-name {
@@ -346,7 +337,6 @@ a {
 }
 
 .sights.box2 {
-    flex-direction: row-reverse;
     background-color: #552708b9;
 }
 
@@ -369,7 +359,6 @@ a {
 }
 
 .sights.box4 {
-    flex-direction: row-reverse;
     background-color: #cecf6b;
 }
 
@@ -394,14 +383,13 @@ a {
 
 .golden-ring-page-box {
     width: 100%;
-    height: 2000px;
     background-color: #ffffff;
 }
 
 .golden-ring-header-text{
     padding-top: 100px;
     width: 100%;
-    height: 200px;
+    height: 300px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -421,27 +409,28 @@ a {
 
 .golden-ring-box {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-image: url(../image/city/map.svg);
-    background-position: center;
+    background-image: url(../image/47040-751515.svg);
     background-size: 50%;
     background-repeat: no-repeat;
 }
 
+.golden-ring-background {
+    position: absolute;
+    filter: brightness(60%);
+}
 
 .golden-ring-city-box {
     width: 95%;
     height: 800px;
     padding-top: 100px;
-
 }
 
 .golden-ring-city {
-    display: flex;
-    flex-direction: row;
+
     gap: 15px;
 }
 
@@ -451,7 +440,7 @@ a {
     align-items: center;
     text-align: center;
     width: 300px;
-    height: 350px;
+    height: 400px;
 
 }
 
@@ -467,7 +456,7 @@ a {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    margin-top: 400px;
+
 }
 
 .city-box.box3.in-view {
@@ -475,7 +464,7 @@ a {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    margin-top: 200px;
+
 }
 
 .city-box.box4.in-view {
@@ -490,7 +479,7 @@ a {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    margin-top: 400px;
+
 }
 
 .city-box.box6.in-view {
@@ -505,7 +494,6 @@ a {
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-    margin-top: 200px;
 }
 
 .city-box.box8.in-view {
@@ -535,4 +523,439 @@ a {
     text-align: center;
     font-size: 22px;
     font-family: cabin;
+}
+
+.culture-page-box {
+    height: 1700px;
+}
+
+.culture-header-text {
+    padding-top: 100px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.culture-text {
+    font-size: 60px;
+    font-family: montserrat;
+}
+
+.culture-text-box {
+    padding-top: 100px;
+    width: 700px;
+    height: 300px;
+    font-family: cabin;
+    font-size: 22px;
+    text-align: center;
+}
+
+.culture-box {
+    width: 800px;
+    height: 800px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+
+.culture-containers {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* две колонки одинаковой ширины */
+    grid-gap: 100px; /* расстояние между элементами */
+
+}
+
+.culture-containers li {
+    list-style: inside;
+    font-size: 18px;
+    font-family: cabin;
+    padding: 10px;
+}
+
+.culture-name {
+    padding-bottom: 20px;
+    font-family: signika;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.culture-genres {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.culture-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.culture-image-box {
+    width: 100%;
+    height: 350px;
+}
+
+.culture-box.box1 {
+    background-color: #978e0ea2;
+}
+
+.culture-box.box2 {
+    background-color: #4d8ec4a2;
+}
+
+.culture-box.box3 {
+    background-color: #c5c5c5;
+}
+
+.culture-box.box4 {
+    background-color: #28814a;
+}
+
+
+.nationalities-page-box {
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.nationalities-title {
+    font-family: montserrat;
+    font-size: 60px;
+}
+
+.nationalities-page-box-title{
+    font-size: 30px;
+    font-family: cabin;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.nationalities-container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px; 
+}
+
+.nationalities-text-box {
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #c2bdbda2;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.nationalities-image-box {
+    width: 400px;
+    height: 720px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.nationalities-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.nationalities-text-title {
+    font-family: cabin;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.nationalities-text {
+    font-family: signika;
+    font-size: 18px;
+}
+
+.nationalities {
+
+}
+
+.nationalities.box1.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.nationalities.box2.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.nationalities.box3.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.tradition-page-main-box {
+    max-width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 3000px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    font-family: signika;
+}
+
+.tradition-page-box {
+    width: 80%;
+
+}
+
+.tradition-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tradition-page-text-box{
+    height: 100px;
+}
+.tradition-page-text-box{
+    font-size: 60px;
+    text-align: center;
+    font-family: montserrat;
+    }
+
+.tradition {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.tradition-image {
+    border-radius: 30px;
+    height: 100%;
+}
+
+.tradition-text-box {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    gap: 10px;
+    width: 730px;
+    padding-left: 20px;
+}
+
+.tradition-text-name {
+    font-size: 28px;
+    font-family: cabin;
+}
+
+.tradition.box1{
+    background-color: #6846074d;
+
+}
+
+.tradition.box1.in-view{
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.tradition.box2 {
+    flex-direction: row-reverse;
+    background-color: #552708b9;
+}
+
+.tradition.box2.in-view {
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.tradition.box3 {
+    background-color: #639599de;
+}
+
+.tradition.box3.in-view {
+    animation-name: fly-left;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.tradition.box4 {
+    flex-direction: row-reverse;
+    background-color: #b98644;
+}
+
+.tradition.box4.in-view {
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+nationalities-image-container.box1{
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+nationalities-image-container.box2{
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+nationalities-image-container.box3{
+    animation-name: fly-right;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+.food-page-box {
+    height: 2000px;
+}
+
+.food-header-text {
+    padding-top: 100px;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.food-text {
+    font-size: 60px;
+    font-family: montserrat;
+}
+
+.food-text-box {
+    padding-top: 100px;
+    width: 700px;
+    height: 300px;
+    font-family: cabin;
+    font-size: 22px;
+    text-align: center;
+}
+
+.food-box {
+    width: 500px;
+    height: 500px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+
+}
+
+.food-containers {
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* две колонки одинаковой ширины */
+    grid-gap: 100px; /* расстояние между элементами */
+
+}
+
+.food-genres {
+
+    font-size: 18px;
+    font-family: cabin;
+    padding: 10px;
+}
+
+.food-name {
+    padding-bottom: 20px;
+    font-family: signika;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.food-genres {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.food-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.food-image-box {
+    width: 100%;
+    height: 350px;
+}
+
+.food-box.box1 {
+    background-color: #978e0ea2;
+}
+
+.food-box.box2 {
+    background-color: #c2370da2;
+}
+
+.food-box.box3 {
+    background-color: #c5c5c5;
+}
+
+.food-box.box4 {
+    background-color: #28814a;
+}
+
+.food-box.box5 {
+    background-color: #ac1c4c;
+}
+
+.food-box.box6 {
+    background-color: #b96e0c;
+}
+
+.made-by-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.made-by-box a{
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 40px;
+    color: #000000;
 }
